@@ -104,7 +104,6 @@ modules:
               name: libgee
               stable-only: true
               is-important: false
-        cleanup: [/lib/pkgconfig]
       - name: uncrustify
         buildsystem: cmake-ninja
         config-opts:
